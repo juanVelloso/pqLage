@@ -1,0 +1,21 @@
+SonicPi:
+
+*
+live_loop :amen_break do
+  use_bpm 40.6
+  with_fx :slicer, phase: 0.125, wave: 0, mix: 0 do ##! A smaller value like 0.125 will slicer faster and larger values like 0.5 will slice more slowly. Notice that successively halving or doubling the phase: opt value tends to always sound good.
+    sample :loop_amen, beat_stretch: 2, cutoff: 100
+  end
+  sleep 2
+end
+
+https://www.raspberrypi.org/magpi/sonic-pi-coded-beats/
+*
+
+
+
+
+
+SuperCollider:
+
+
