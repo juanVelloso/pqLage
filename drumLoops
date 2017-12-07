@@ -52,4 +52,4 @@ sample :misc_crow
 
 SuperCollider:
 
-
+{Saw.ar(freq:MouseX.kr(minval:10, maxval:300), mul:1)}.play
