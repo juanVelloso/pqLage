@@ -13,6 +13,37 @@ https://www.raspberrypi.org/magpi/sonic-pi-coded-beats/
 *
 
 sample :ambi_glass_hum
+sample :ambi_haunted_hum
+sample :ambi_piano
+
+sample :bass_dnb_f
+sample :bass_hit_c
+
+sample :bd_klub
+
+sample :drum_cymbal_closed
+sample :drum_cymbal_pedal
+sample :drum_heavy_kick
+
+sample :elec_blip
+sample :elec_blip2
+sample :elec_plip
+sample :elec_soft_kick
+sample :elec_twip
+sample :elec_wood
+
+sample :perc_bell
+sample :perc_snap (tem o snap2 tb)
+sample :perc_swash
+sample :perc_till
+
+sample :guit_e_slide
+sample :guit_em9 (???????????????????????)
+
+sample :misc_cineboom
+sample :misc_crow
+
+
 
 
 
