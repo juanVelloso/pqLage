@@ -37,8 +37,10 @@ sample :perc_snap (tem o snap2 tb)
 sample :perc_swash
 sample :perc_till
 
+sample :guit_e_fifths (guitarra para ter som de corda)
 sample :guit_e_slide
-sample :guit_em9 (???????????????????????)
+sample :guit_em9 
+sample :guit_harmonics
 
 sample :misc_cineboom
 sample :misc_crow
