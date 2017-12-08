@@ -53,3 +53,32 @@ sample :misc_crow
 SuperCollider:
 
 {Saw.ar(freq:MouseX.kr(minval:10, maxval:300), mul:1)}.play
+
+//osciladores
+{SinOsc.ar(freq:400, mul:0.1)}.play //forma de onda senoidal
+{Pulse.ar(freq:400, mul:0.1)}.play  //forma de onda quadrada
+{Saw.ar(freq:400, mul:0.1)}.play    //I wanna play a game...
+{LFTri.ar(freq:400, mul:0.1)}.play  //forma de onda triangular
+
+//geradores de ruído
+{WhiteNoise.ar(mul:0.2)}.play
+{PinkNoise.ar(mul:0.2)}.play
+{BrownNoise.ar(mul:0.2)}.play
+
+//funções podem ser argumentos de outras funções!
+rrand(200, 300) //gera um número entre 200 e 300
+
+// Low Pass Filter
+{LPF.ar(in:WhiteNoise.ar(0.4), freq:MouseX.kr(200, 15000))!2}.play;
+
+// High Pass Filter
+{HPF.ar(in:WhiteNoise.ar(0.4), freq:MouseX.kr(200, 15000))!2}.play;
+
+(
+{
+
+
+}.freqscope
+)
+
+
